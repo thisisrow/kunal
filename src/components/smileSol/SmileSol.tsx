@@ -63,39 +63,42 @@ const SmileSol: React.FC = () => {
                     </h2>
                     {/* Add lg:mx-auto and lg:px-XX for large screen margins */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-  {transformations.map((item, index) => (
-    <div
-      key={index}
-      className="w-full max-w-[250px] aspect-square bg-white rounded-lg shadow-lg overflow-hidden flex flex-col items-center p-4 mx-auto"
-    >
-      <img
-        src={item.pic}
-        alt={item.title}
-        className="w-full h-2/3 object-cover rounded-md mb-2"
-      />
-      <h3 className="text-center text-black/60 text-base font-medium">
-        {item.title}
-      </h3>
-    </div>
-  ))}
-</div>
+                        {transformations.map((item, index) => (
+                            <div
+                                key={index}
+                                className="w-full max-w-[250px] aspect-square bg-white rounded-lg shadow-lg overflow-hidden flex flex-col items-center p-4 mx-auto"
+                                onClick={() => {
+                                    window.open('https://wa.me/919981057175', '_blank')
+                                  }}
+                            >
+                                <img
+                                    src={item.pic}
+                                    alt={item.title}
+                                    className="w-full h-2/3  object-cover rounded-md mb-2"
+                                />
+                                <h3 className="text-center text-black/60 text-base font-medium">
+                                    {item.title}
+                                </h3>
+                            </div>
+                        ))}
+                    </div>
 
                 </div>
                 {/* CTA Button */}
                 <Button
-              onClick={() => {
-                window.open('https://wa.me/919981057175', '_blank')
-              }}
-              className="mt-8 bg-[#ff7f50] rounded-[5px] flex items-center justify-between px-5 mx-auto hover:bg-[#046a9d] transition duration-200">
-              <span className="whitespace-nowrap overflow-hidden text-ellipsis font-['Poppins'] font-medium text-white text-sm sm:text-base lg:text-[20px] tracking-[-0.5px] leading-normal text-center p-3">
-              Quick Connect via Video Call
-              </span>
-              <img
-                className="w-[20px] h-[20px] ml-2"
-                alt="Frame"
-                src="/math.png"
-              />
-            </Button>
+                    onClick={() => {
+                        window.open('https://wa.me/919981057175', '_blank')
+                    }}
+                    className="mt-8 bg-[#ff7f50] rounded-[5px] flex items-center justify-between px-5 mx-auto hover:bg-[#046a9d] transition duration-200">
+                    <span className="whitespace-nowrap overflow-hidden text-ellipsis font-['Poppins'] font-medium text-white text-sm sm:text-base lg:text-[20px] tracking-[-0.5px] leading-normal text-center p-3">
+                        Quick Connect via Video Call
+                    </span>
+                    <img
+                        className="w-[20px] h-[20px] ml-2"
+                        alt="Frame"
+                        src="/math.png"
+                    />
+                </Button>
             </div>
         </section>
     );
