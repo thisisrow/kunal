@@ -68,9 +68,9 @@ const Smile = () => {
               After my treatment with Dr. Kunal
             </p>
             <p className="text-lg text-[#4a4a4a]">
-              Smile transformations are more than cosmetic — they change
+              Smile transformations are more than cosmetic  they change
               confidence, careers, and relationships. With Dr. Kunal Shet's
-              advanced techniques, patients experience world-class aesthetic
+              advanced techniques, patients experience world - class aesthetic
               and functional results.
             </p>
 
