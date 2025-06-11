@@ -60,7 +60,7 @@ const Smile = () => {
       <section className="relative bg-[url('/rectangle-473.svg')] bg-cover bg-no-repeat bg-center min-h-screen">
         <div className="container mx-auto max-w-7xl relative z-10 py-16 md:py-24 px-4 md:px-8">
           {/* Mobile Layout */}
-          <div className="block lg:hidden  text-center">
+          <div className="block lg:hidden ">
             <h2 className="text-3xl font-semibold text-[#0578b1]">
               How Will My Smile Look?
             </h2>
