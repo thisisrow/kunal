@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       <section className="py-16 md:py-24 px-4 md:px-8 lg:px-0  ">
-        <div className="container mb-10 text-center !p-0">
+        <div className="container mb-10 text-center !p-0 ">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#0578b1]">
             Meet Dr. Kunal Shet: The Smile Architect
           </h2>
@@ -13,34 +13,32 @@ const About = () => {
 
 
 
-        <div className="container   lg:mx-auto lg:max-w-6xl ">
-
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+        <div className="container lg:mx-auto lg:max-w-6xl text-center ">
+          <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-12">
             {/* Image section - displayed first on mobile */}
-            <div className="order-1 lg:order-2 relative">
+            <div className="order-1 lg:order-2 relative flex flex-col items-center">
               <img
                 src="/group-168.png"
                 alt="Dr. Kunal Shet Portrait"
-                className="w-full max-w-md mx-auto  object-contain"
+                className="w-full max-w-md mx-auto object-contain"
                 style={{ height: "300px" }}
               />
 
-              <div className="text-center mt-4">
+              <div className="text-center mt-4 ">
                 <h3 className="text-xl font-black text-[#0578b1]">
                   Dr. Kunal Shet
                 </h3>
                 <p className="text-sm text-[#0578b1]">
                   (BDS, MDS, Orthodontics & Dentofacial Orthopedics,
-                  <br />
                   Implantologist (Masters in Cortical Implantology))
                 </p>
               </div>
             </div>
 
             {/* Text section - displayed second on mobile */}
-            <div className="space-y-6 order-2 lg:order-1 col-span-2">
+            <div className="space-y-6 order-2 lg:order-1 col-span-2 ">
 
-              <div className="text-lg text-[#4a4a4a] space-y-4">
+              <div className="text-lg text-[#4a4a4a] space-y-4 ">
                 <p>
                   Dr. Kunal Shet is a celebrated implantologist and a pioneer in
                   modern dentistry, renowned for transforming over 80,000 smiles
