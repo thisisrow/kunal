@@ -74,7 +74,7 @@ const SmileSol: React.FC = () => {
                                 <img
                                     src={item.pic}
                                     alt={item.title}
-                                    className="w-full h-2/3  object-cover rounded-md mb-2"
+                                    className="w-full h-1/1  object-cover rounded-md mb-2"
                                 />
                                 <h3 className="text-center text-black/60 text-base font-medium">
                                     {item.title}

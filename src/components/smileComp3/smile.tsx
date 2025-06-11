@@ -61,10 +61,10 @@ const Smile = () => {
         <div className="container mx-auto max-w-7xl relative z-10 py-16 md:py-24 px-4 md:px-8">
           {/* Mobile Layout */}
           <div className="block lg:hidden ">
-            <h2 className="text-3xl font-semibold text-[#0578b1]">
+            <h2 className="text-3xl font-semibold text-[#0578b1] text-center">
               How Will My Smile Look?
             </h2>
-            <p className="text-xl text-[#000000a6]">
+            <p className="text-xl text-black/60 ">
               After my treatment with Dr. Kunal
             </p>
             <p className="text-lg text-[#4a4a4a]">
@@ -97,10 +97,10 @@ const Smile = () => {
           {/* Desktop Layout */}
           <div className="hidden lg:grid grid-cols-2 gap-12 lg:mx-auto lg:max-w-5xl">
             <div className="space-y-8 z-20">
-              <h2 className="text-5xl font-semibold text-[#0578b1]">
+              <h2 className="text-5xl font-semibold text-[#0578b1] text-center">
                 How Will My Smile Look?
               </h2>
-              <p className="text-3xl text-black font-bold text-opacity-65 tracking-tight">
+              <p className="text-3xl text-black/60 font-bold text-opacity-65 tracking-tight">
                 After my treatment with Dr. Kunal
               </p>
               <p className="text-lg text-[#4a4a4a]">

@@ -56,7 +56,7 @@ const About = () => {
             </div>
           </div>
           {/* CTA Button */}
-          <div className="w-full text-center">
+          <div className="w-full text-center mb-10">
             <Button
               onClick={() => {
                 window.open('https://wa.me/919981057175', '_blank')
