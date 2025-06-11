@@ -60,7 +60,7 @@ const Smile = () => {
       <section className="relative bg-[url('/rectangle-473.svg')] bg-cover bg-no-repeat bg-center min-h-screen">
         <div className="container mx-auto max-w-7xl relative z-10 py-16 md:py-24 px-4 md:px-8">
           {/* Mobile Layout */}
-          <div className="block lg:hidden space-y-6 text-center">
+          <div className="block lg:hidden  text-center">
             <h2 className="text-3xl font-semibold text-[#0578b1]">
               How Will My Smile Look?
             </h2>
@@ -74,7 +74,7 @@ const Smile = () => {
               and functional results.
             </p>
 
-            <div className="relative h-[300px] sm:h-[350px] m-0">
+            <div className="relative h-[300px] sm:h-[350px] mt-0">
               <img
                 src="/smileTransformationSection.png"
                 alt="Smile Transformation"
@@ -142,7 +142,7 @@ const Smile = () => {
         {/* Right-side Image (only for desktop) */}
         <div 
         
-        className="absolute -right-6 top-0 h-full w-1/2 z-10 hidden lg:block">
+        className="absolute right-0 top-0 h-full w-1/2 z-10 hidden lg:block">
           <img
             src="/smileTransformationSection.png"
             alt="Smile Transformation"

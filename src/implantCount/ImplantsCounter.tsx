@@ -81,7 +81,7 @@ const ImplantsCounter: React.FC = () => {
           {counterDigits.map((digit: string, index: number) => (
             <div
               key={index}
-              className="w-16 h-20  m-0.5 bg-orange-500 relative rounded-md shadow-sm
+              className="w-16 h-20  m-0.5 bg-[#ff7f50] relative rounded-md shadow-sm
                          flex justify-center items-center text-5xl text-white font-bold
                          overflow-hidden"
             >
