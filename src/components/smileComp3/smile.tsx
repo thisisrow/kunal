@@ -9,7 +9,7 @@ const CircularProgress = ({ percentageText, percentageBar, label }: any) => {
   const strokeDashoffset = circumference - (numericBar / 100) * circumference;
 
   return (
-    <div className="text-center w-full max-w-[100px] mx-auto">
+    <div className="text-center w-full max-w-[100px] mx-auto ">
       <svg height="100" width="100" className="mx-auto">
         <circle
           stroke="#e5e7eb"
@@ -95,7 +95,7 @@ const Smile = () => {
           </div>
 
           {/* Desktop Layout */}
-          <div className="hidden lg:grid grid-cols-2 gap-12">
+          <div className="hidden lg:grid grid-cols-2 gap-12 lg:mx-auto lg:max-w-5xl">
             <div className="space-y-8 z-20">
               <h2 className="text-5xl font-semibold text-[#0578b1]">
                 How Will My Smile Look?
@@ -122,8 +122,12 @@ const Smile = () => {
               </div>
 
               <Button className="w-[372px] h-12 mt-[100px] bg-[#ff7f50] rounded-[5px] flex items-center justify-between px-5 hover:bg-[#046a9d] transition duration-200">
-                <span className="font-['Poppins'] font-medium text-white text-[23px] tracking-[-0.92px] mr-1">
-                  Request a Virtual Consultation
+                <span 
+                onClick={() => {
+                  window.open('https://wa.me/919981057175', '_blank')
+                }}
+                className="font-['Poppins'] font-medium text-white text-[23px] tracking-[-0.92px] mr-1">
+                Request a Virtual Consultation
                 </span>
                 <img
                   className="w-[20px] h-[20px]"
@@ -137,10 +141,8 @@ const Smile = () => {
 
         {/* Right-side Image (only for desktop) */}
         <div 
-        onClick={() => {
-                window.open('https://wa.me/919981057175', '_blank')
-              }}
-        className="absolute right-0 top-0 h-full w-1/2 z-10 hidden lg:block">
+        
+        className="absolute -right-6 top-0 h-full w-1/2 z-10 hidden lg:block">
           <img
             src="/smileTransformationSection.png"
             alt="Smile Transformation"

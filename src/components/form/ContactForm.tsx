@@ -1,3 +1,4 @@
+import { Button } from '../ui/button';
 const ContactForm = () => {
   return (
     <section className="py-16 px-4 md:px-8 bg-white">
@@ -46,17 +47,22 @@ const ContactForm = () => {
             By checking this box, I confirm that I agree to Orthosquare M.D.C. Pvt. Ltd.’s Privacy Policy and consent to the use of my information as stated
           </label>
         </div>
-
-        {/* Submit Button */}
-        <div className="md:col-span-2 text-center">
-          <button
-            type="submit"
-            className="bg-[#ff7f50] text-white py-2 px-6 rounded-full text-lg font-semibold hover:bg-[#046a9d] transition duration-200"
-          >
-            Submit
-          </button>
-        </div>
       </form>
+
+          <Button
+              onClick={() => {
+                window.open('https://wa.me/919981057175', '_blank')
+              }}
+              className="mt-8 bg-[#ff7f50] rounded-[5px] flex items-center justify-between px-5 mx-auto hover:bg-[#046a9d] transition duration-200">
+              <span className="whitespace-nowrap overflow-hidden text-ellipsis font-['Poppins'] font-medium text-white text-sm sm:text-base lg:text-[20px] tracking-[-0.5px] leading-normal text-center p-3">
+              Get Video Consultation with Dr. Shet
+              </span>
+              <img
+                className="w-[20px] h-[20px] ml-2"
+                alt="Frame"
+                src="/math.png"
+              />
+            </Button>
     </section>
   );
 };

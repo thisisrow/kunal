@@ -7,7 +7,7 @@ const Clinics = () => {
   return (
     <div>
       <section className="py-16 md:py-24 px-4 md:px-8 lg:px-0">
-        <div className="container mx-auto max-w-7xl">
+        <div className="container mx-auto max-w-7xl lg:mx-auto lg:max-w-6xl">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0578b1] text-center mb-12">
             Explore Our Dental Tourism Location
           </h2>
@@ -40,16 +40,20 @@ const Clinics = () => {
             </div>
           </div>
 
-          <Button 
-          onClick={() => {
+          <Button
+              onClick={() => {
                 window.open('https://wa.me/919981057175', '_blank')
               }}
-          className="w-full lg:w-[372px] h-12 mt-8 lg:mt-[100px] mx-auto block bg-[#ff7f50] rounded-[5px] flex items-center justify-between px-5 hover:bg-[#046a9d] transition duration-200">
-            <span className="font-['Poppins'] font-medium text-white text-lg lg:text-[23px] tracking-[-0.92px] leading-normal mr-1">
-              Request a Virtual Consultation
-            </span>
-            <img className="w-[20px] h-[20px]"  alt="Frame" src="/math.png"   />
-          </Button>
+              className="mt-8 bg-[#ff7f50] rounded-[5px] flex items-center justify-between px-5 mx-auto hover:bg-[#046a9d] transition duration-200">
+              <span className="whitespace-nowrap overflow-hidden text-ellipsis font-['Poppins'] font-medium text-white text-sm sm:text-base lg:text-[20px] tracking-[-0.5px] leading-normal text-center p-3">
+              Expert Video Consultation with Dr. Shet
+              </span>
+              <img
+                className="w-[20px] h-[20px] ml-2"
+                alt="Frame"
+                src="/math.png"
+              />
+            </Button>
         </div>
       </section>
     </div>

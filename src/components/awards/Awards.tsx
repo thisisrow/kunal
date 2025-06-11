@@ -115,7 +115,7 @@ const Awards = () => {
   };
 
   return (
-    <section className="py-12 md:py-16 px-4 md:px-8 lg:px-0 overflow-hidden">
+    <section className="py-12 md:py-16 px-4 md:px-8 lg:px-0 overflow-hidden lg:mx-auto lg:max-w-6xl">
       <div className="container mx-auto max-w-7xl">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#0578b1] text-center mb-8">
           Healthy Smiles,
@@ -184,7 +184,7 @@ const Awards = () => {
               }}
         className="w-full lg:w-[372px] h-12 mt-8 mx-auto block bg-[#ff7f50] rounded-[5px] flex items-center justify-between px-5">
           <span className="font-['Poppins'] font-medium text-white text-lg lg:text-[23px] tracking-[-0.92px] leading-normal mr-1">
-            Request a Virtual Consultation
+          Request a Pricing Quote
           </span>
           <img className="w-[20px] h-[20px]" alt="Frame" src="/math.png" />
         </Button>

@@ -2,7 +2,7 @@ import { Button } from "../ui/button";
 const Hero = () => {
   return (
     <section className="relative min-h-[500px]  bg-cover bg-center px-4 md:px-8 lg:px-0" style={{background:"#EAF8FF"}}>
-      <div className="container mx-auto max-w-7xl ">
+      <div className="container mx-auto max-w-6xl ">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
           {/* Left Column */}
           <div className="space-y-6 mt-[20%]">
@@ -24,7 +24,7 @@ const Hero = () => {
             className="w-full h-12 mt-8 lg:mt-[100px] bg-[#ff7f50] rounded-[5px] flex items-center justify-center gap-2 px-3 sm:px-4 overflow-hidden hover:bg-[#046a9d] transition duration-200">
               <div className="min-w-0 flex items-center gap-2">
                 <span className="whitespace-nowrap overflow-hidden text-ellipsis font-['Poppins'] font-medium text-white text-sm sm:text-base lg:text-[20px] tracking-[-0.5px] leading-normal text-center">
-                  Schedule Your Free Video Consultation
+                Request a Video Consultation
                 </span>
                 <img
                   className="w-[20px] h-[20px] sm:w-[22px] sm:h-[22px] flex-shrink-0"
