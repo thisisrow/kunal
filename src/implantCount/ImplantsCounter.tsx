@@ -71,7 +71,7 @@ const ImplantsCounter: React.FC = () => {
     >
       <div className="flex items-center justify-center flex-wrap text-center">
         <p
-          className=" text-2xl lg:text-3xl whitespace-nowrap tracking-tight"
+          className=" text-2xl lg:text-3xl whitespace-nowrap tracking-tight font-bold md:font-normal"
           style={{ color: "#4A4A4A" }}
         >
           Dr. Shet has completed
@@ -103,7 +103,7 @@ const ImplantsCounter: React.FC = () => {
         </div>
 
         <p
-          className="text-gray-700 text-2xl lg:text-3xl font-normal ml-4 whitespace-nowrap tracking-tight"
+          className="text-gray-700 text-2xl lg:text-3xl font-bold md:font-normal ml-4 whitespace-nowrap tracking-tight"
           style={{ color: "#4A4A4A" }}
         >
           Successful Implants
