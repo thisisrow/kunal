@@ -64,7 +64,7 @@ const Smile = () => {
             <h2 className="text-3xl font-semibold text-[#0578b1] text-center">
               How Will My Smile Look?
             </h2>
-            <p className="text-xl text-black/60 ">
+            <p className="text-2xl text-black/60 font-bold text-opacity-65 tracking-tight text-center my-4">
               After my treatment with Dr. Kunal
             </p>
             <p className="text-lg text-[#4a4a4a]">

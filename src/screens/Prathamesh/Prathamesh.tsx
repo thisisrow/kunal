@@ -9,12 +9,15 @@ import Clinics from "../../components/locationOfClinics/Clinics";
 // import { YTvideo } from "../../components/Vidio/YTvideo";
 import ContactForm from "../../components/form/ContactForm";
 import ImplantsCounter from "../../implantCount/ImplantsCounter";
+// import Cslide from "../../implantCount/Cslide"
 
 export const Prathamesh = (): JSX.Element => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
       <Hero />
+
+      {/* <Cslide/> */}
 
       {/* Implants Counter Section */}
       <ImplantsCounter />

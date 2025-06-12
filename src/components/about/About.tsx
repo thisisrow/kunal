@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 const About = () => {
   return (
     <div>
-      <section className=" md:py-24  md:px-8 lg:px-0  ">
+      <section className="  md:py-24  md:px-8 lg:px-0  ">
         <div className="container mb-10 text-center !p-0">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#0578b1]">
             Meet Dr. Kunal Shet: The Smile Architect
