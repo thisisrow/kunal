@@ -16,7 +16,7 @@ export const Prathamesh = (): JSX.Element => {
     <div className="bg-white">
       {/* Hero Section */}
       <Hero />
-
+{/* hi */}
       {/* <Cslide/> */}
 
       {/* Implants Counter Section */}
